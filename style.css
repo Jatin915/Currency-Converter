@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+    min-height: 100vh;
+    min-width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    min-height: 25rem;
+    min-width: 25rem;
+    background-color: white;
+    border-radius: 5.5%;
+    border: 0.5px grey solid;
+}
+
+h2{
+    margin-top: 5%;
+    margin-left: 22%;
+    margin-bottom: 9%;
+}
+
+h4{
+    margin-left: 7.7%;
+}
+
+input{
+    height: 2.5rem;
+    width: 20rem;
+    margin: -10% 0% 1% 7.7%;
+    border: solid 0.5px rgba(128, 128, 128, 0.559);
+    border-radius: 8px;
+    padding: 0 2.5%;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+.From-To{
+    display: flex;
+    margin-left: 7.7%;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+.dropdown{
+    display: flex;
+    border: 0.8px solid grey;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 0 0.4em;
+    margin-top: -0.7em;
+}
+
+.from{
+    margin-top: 0.5rem;
+    font-size: small;
+    
+    img{
+        max-width: 2rem;
+    }
+    
+    select{
+        padding: 0.2rem;
+        height: 2rem;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.to{
+    margin-top: 0.5rem;
+    font-size: small;
+    img{
+        max-width: 2rem;
+    }
+    select{
+        padding: 0.2rem;
+        height: 2rem;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+p{
+    margin: 2em 0 0 1.8em;
+    max-width: fit-content;
+    background-color: rgba(211, 211, 211, 0.385);
+    padding: 2%;
+    border-radius: 0.5rem;
+}
+
+button{
+    height: 3.5em;
+    width: 20rem;
+    margin: 2.6em 0 0.4rem 2.5rem;
+    background-color: rgba(175, 59, 175, 0.81);
+    color: #fff;
+    border: 1px solid rgb(186, 133, 186);
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(145, 45, 145);
+}
+
+.From-To i{
+    margin-top: 3.2rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #a44aaa;
+}
